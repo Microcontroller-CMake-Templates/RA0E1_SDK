@@ -20,9 +20,7 @@
 
 /* Ensure Renesas MCU variation definitions are included to ensure MCU
  * specific register variations are handled correctly. */
-#ifndef BSP_FEATURE_H
- #error "INTERNAL ERROR: bsp_feature.h must be included before renesas.h."
-#endif
+
 
 /** @addtogroup Renesas
  * @{

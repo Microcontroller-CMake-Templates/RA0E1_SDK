@@ -16,7 +16,8 @@ set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
 
 add_compile_options(-mcpu=${MCPU} -mthumb -mthumb-interwork)
 
-add_definitions(-fmessage-length=0 
+add_definitions(-DBSP_MCU_GROUP_RA0E1
+                -fmessage-length=0 
 				-fsigned-char 
 				-ffunction-sections 
 				-fdata-sections 
